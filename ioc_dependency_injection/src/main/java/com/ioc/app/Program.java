@@ -14,6 +14,6 @@ public class Program {
 
         PlayService playService = new PlayService(taxService, deliverService);
         
-        System.out.println("RESULTADO = " + playService.finalPrice(100.0, "Centro-Oeste"));
+        System.out.println("RESULTADO = " + playService.finalPrice(1000.0, "Centro-Oeste"));
     }
 }

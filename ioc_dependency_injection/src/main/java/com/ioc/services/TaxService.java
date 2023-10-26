@@ -5,6 +5,7 @@ import com.ioc.Interface.InterfaceTax;
 public class TaxService implements InterfaceTax {
     
     //Definindo regra do tax uilizando Switch
+    @Override
     public double tax(double value, String region){
         switch(region){
             case "Norte": return value * 0.5;
