@@ -4,6 +4,7 @@ import com.ioc.Interface.InterfaceDeliver;
 
 public class DeliverService implements InterfaceDeliver {
     
+    //Definindo regra do deliver uilizando IF-ELSE
     @Override
     public double region(String region){
             if("Norte".equalsIgnoreCase(region)){

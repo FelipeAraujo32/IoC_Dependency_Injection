@@ -15,6 +15,6 @@ public class PlayService {
 
     
     public double finalPrice(double price, String region){ 
-      return price + deliverService.region(region) + taxService.tax(price);
+      return price + deliverService.region(region) + taxService.tax(price, region);
     }
 }

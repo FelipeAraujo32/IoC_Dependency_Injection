@@ -2,5 +2,5 @@ package com.ioc.Interface;
 
 public interface InterfaceTax {
 
-    public double tax(double value);
+    public double tax(double value, String region);
 }
